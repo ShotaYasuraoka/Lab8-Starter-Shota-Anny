@@ -2,7 +2,7 @@
     "name": "Lab8-Starter-Shota-Anny",
     "short_name": "Shota-Anny",
     "description": "manifest",
-    "start_url": "/start",
+    "start_url": "/",
     "display": "fullscreen",
     "background_color": "white",
     "theme_color": "red",
@@ -10,8 +10,7 @@
       {
         "src": "/assets/images/icons/icon-192x192.png",
         "sizes": "192x192",
-        "type": "image/png",
-        "form_factor": "wide"
+        "type": "image/png"
       },
       {
         "src": "/assets/images/icons/icon-256x256.png",
