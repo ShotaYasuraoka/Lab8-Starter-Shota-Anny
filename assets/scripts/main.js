@@ -78,7 +78,7 @@ function initializeServiceWorker() {
 async function getRecipes() {
   // EXPOSE - START (All expose numbers start with A)
   // A1. TODO - Check local storage to see if there are any recipes.
-  const storedRecipes = localStorage.getItem('--recipes--');
+  const storedRecipes = localStorage.getItem('recipes');
   if (storedRecipes) {
     return JSON.parse(storedRecipes);
   }
