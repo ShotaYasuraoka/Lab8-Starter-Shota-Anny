@@ -2,7 +2,7 @@
     "name": "Lab8-Starter-Shota-Anny",
     "short_name": "Shota-Anny",
     "description": "manifest",
-    "start_url": "start",
+    "start_url": "/start",
     "display": "fullscreen",
     "background_color": "white",
     "theme_color": "red",
@@ -10,21 +10,57 @@
       {
         "src": "/assets/images/icons/icon-192x192.png",
         "sizes": "192x192",
-        "type": "image/png"
+        "type": "image/png",
+        "form_factor": "wide"
       },
       {
-        "src": "/assets/images/icons/icon-192x192.png",
+        "src": "/assets/images/icons/icon-256x256.png",
         "sizes": "256x256",
         "type": "image/png"
       },
       {
-        "src": "/assets/images/icons/icon-192x192.png",
+        "src": "/assets/images/icons/icon-384x3384.png",
         "sizes": "384x384",
         "type": "image/png"
       },
       {
-        "src": "/assets/images/icons/icon-192x192.png",
+        "src": "/assets/images/icons/icon-512x512.png",
         "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/icons/0-star.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/assets/images/icons/1-star.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/assets/images/icons/2-star.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/assets/images/icons/3-star.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/assets/images/icons/4-star.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/assets/images/icons/5-star.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "/assets/images/icons/arrow-down.png",
+        "sizes": "any",
         "type": "image/png"
       }
     ]
